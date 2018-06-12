@@ -1,0 +1,1 @@
+Utiliza JQuery dentro de Typescript

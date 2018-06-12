@@ -1,0 +1,1 @@
+https://azurecitadel.github.io/labs/logicapps/
