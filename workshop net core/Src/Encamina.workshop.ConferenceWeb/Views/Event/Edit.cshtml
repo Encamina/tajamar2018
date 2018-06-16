@@ -1,0 +1,44 @@
+﻿@model Encamina.workshop.Backend.Models.Event
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h2>Edit</h2>
+
+<h4>Event</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DateEvent" class="control-label"></label>
+                <input asp-for="DateEvent" class="form-control" />
+                <span asp-validation-for="DateEvent" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Organizer" class="control-label"></label>
+                <input asp-for="Organizer" class="form-control" />
+                <span asp-validation-for="Organizer" class="text-danger"></span>
+            </div>
+            <input type="hidden" asp-for="ID" />
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-default" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

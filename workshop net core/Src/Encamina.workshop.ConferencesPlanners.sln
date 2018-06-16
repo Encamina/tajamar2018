@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - FrontEnd", "01 - FrontEnd", "{E41F43A2-4396-42F3-9778-7F54323224BF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 - Services", "02 - Services", "{37016FDC-3EAB-4BE6-BFCA-83B50A71E72A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 - Backend", "03 - Backend", "{D001B38C-236F-4930-9D8B-24D877D7608A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Encamina.workshop.Backend", "Encamina.workshop.Backend\Encamina.workshop.Backend.csproj", "{E8B3CD8E-3900-4D5F-B3AE-BF586A5F6718}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Encamina.workshop.Services", "Encamina.workshop.Services\Encamina.workshop.Services.csproj", "{E5C3F747-1553-44DD-B6FE-F63C5C6663CE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Encamina.workshop.ConferenceWeb", "Encamina.workshop.ConferenceWeb\Encamina.workshop.ConferenceWeb.csproj", "{19CF9CEF-2F67-4852-A2FD-9B263D6C5902}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E8B3CD8E-3900-4D5F-B3AE-BF586A5F6718}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8B3CD8E-3900-4D5F-B3AE-BF586A5F6718}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8B3CD8E-3900-4D5F-B3AE-BF586A5F6718}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8B3CD8E-3900-4D5F-B3AE-BF586A5F6718}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5C3F747-1553-44DD-B6FE-F63C5C6663CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5C3F747-1553-44DD-B6FE-F63C5C6663CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5C3F747-1553-44DD-B6FE-F63C5C6663CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5C3F747-1553-44DD-B6FE-F63C5C6663CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19CF9CEF-2F67-4852-A2FD-9B263D6C5902}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19CF9CEF-2F67-4852-A2FD-9B263D6C5902}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19CF9CEF-2F67-4852-A2FD-9B263D6C5902}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19CF9CEF-2F67-4852-A2FD-9B263D6C5902}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E8B3CD8E-3900-4D5F-B3AE-BF586A5F6718} = {D001B38C-236F-4930-9D8B-24D877D7608A}
+		{E5C3F747-1553-44DD-B6FE-F63C5C6663CE} = {37016FDC-3EAB-4BE6-BFCA-83B50A71E72A}
+		{19CF9CEF-2F67-4852-A2FD-9B263D6C5902} = {E41F43A2-4396-42F3-9778-7F54323224BF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5BF5C932-3ADA-457B-806E-B0F47DAD83AC}
+	EndGlobalSection
+EndGlobal
