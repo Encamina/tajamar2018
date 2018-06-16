@@ -1,7 +1,7 @@
 
 ## Creación del proyecto web
 
-1. Creamos un proyeto del tipo Web Asp.Net Core 2.0
+1. Creamos un proyeto del tipo Web Asp.Net Core 2.0 .
 2. Seleccionamos una plantilla WebApplication (Model-View-Controller)
 ![](imagenes/plantilla.png)
 

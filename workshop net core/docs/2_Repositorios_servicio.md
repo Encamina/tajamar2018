@@ -10,7 +10,7 @@
 
 1. Creamos en el proyecto de backend, una carpeta 'infraestructure/entities'
 2. Añadimos las clases repositorio
-3. Clase `EventRepository.cs`
+3. Clase `EventRepository.cs`.
 
 ```csharp
 using Encamina.workshop.Backend.Models;
